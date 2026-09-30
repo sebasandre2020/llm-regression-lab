@@ -1,0 +1,22 @@
+{
+  "job_id": "11111111-1111-4111-8111-111111111111",
+  "request": {
+    "schema_version": "1.0",
+    "dataset_version": "sha256:1111111111111111111111111111111111111111111111111111111111111111",
+    "config_version": "sha256:2222222222222222222222222222222222222222222222222222222222222222",
+    "baseline_job_id": "22222222-2222-4222-8222-222222222222",
+    "deadline_seconds": 900,
+    "source_revision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  },
+  "state": "SUCCEEDED",
+  "attempt": 1,
+  "created_at": "2026-09-27T11:59:00Z",
+  "updated_at": "2026-09-27T12:00:00Z",
+  "deadline_at": "2026-09-27T12:14:00Z",
+  "error": null,
+  "links": {
+    "self": "/v1/jobs/11111111-1111-4111-8111-111111111111",
+    "report": "/v1/jobs/11111111-1111-4111-8111-111111111111/report",
+    "gate": "/v1/jobs/11111111-1111-4111-8111-111111111111/gate"
+  }
+}

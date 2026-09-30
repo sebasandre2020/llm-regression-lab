@@ -1,0 +1,8 @@
+# Local test and documentation tools; runtime dependencies are in requirements-local.lock.
+jsonschema==4.25.1
+PyYAML==6.0.3
+openapi-spec-validator==0.7.2
+ruff==0.12.12
+httpx==0.28.1
+pytest==8.4.2
+pytest-asyncio==1.2.0

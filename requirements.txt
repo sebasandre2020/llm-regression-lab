@@ -1,0 +1,7 @@
+# Local Phase 3.1 runtime. No provider SDKs or paid evaluator dependencies.
+fastapi==0.141.1
+pydantic==2.12.5
+asyncpg==0.31.0
+uvicorn==0.35.0
+
+httpx==0.28.1

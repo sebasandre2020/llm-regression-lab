@@ -1,0 +1,10 @@
+# Copy into the future environment root after bootstrapping state separately.
+terraform {
+  backend "s3" {
+    bucket       = "REPLACE-approved-state-bucket"
+    key          = "llm-regression-lab/staging/terraform.tfstate"
+    region       = "us-east-1"
+    encrypt      = true
+    use_lockfile = true
+  }
+}

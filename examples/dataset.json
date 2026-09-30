@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "name": "synthetic-shape-example",
+  "cases": [
+    {
+      "case_id": "capital-peru",
+      "input": "What is the capital of Peru?",
+      "reference": "Lima",
+      "contexts": [
+        "Lima is the capital of Peru."
+      ],
+      "assertions": [
+        {
+          "type": "contains",
+          "value": "Lima"
+        }
+      ]
+    }
+  ]
+}

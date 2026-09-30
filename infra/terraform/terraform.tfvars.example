@@ -1,0 +1,9 @@
+allow_provisioning   = false
+region               = "us-east-1"
+environment          = "staging"
+artifact_bucket_name = "REPLACE-globally-unique-artifacts"
+kms_key_arn          = "REPLACE-approved-key-arn"
+worker_image        = "REPLACE.dkr.ecr.us-east-1.amazonaws.com/lab@sha256:0000000000000000000000000000000000000000000000000000000000000000"
+execution_role_arn   = "REPLACE-execution-role-arn"
+worker_role_arn      = "REPLACE-project-worker-role-arn"
+database_secret_arn = "REPLACE-database-secret-arn"

@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "target": "approved-demo-target",
+  "application_revision": "synthetic-candidate",
+  "changed_dimensions": [
+    "prompt"
+  ],
+  "prompt_digest": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "model_revision": "registry-resolved-model-revision",
+  "retrieval_corpus_digest": null,
+  "engine_image_digest": "sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+  "evaluator_versions": {
+    "promptfoo": "illustrative-version",
+    "ragas": "illustrative-version"
+  },
+  "judge_revision": "registry-resolved-judge-revision",
+  "rubric_digest": "sha256:cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+  "metrics": [
+    "assertion_pass_rate",
+    "faithfulness"
+  ],
+  "metric_policy_version": "macro-v1",
+  "pricing_snapshot_digest": "sha256:dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+  "execution_profile": "replay-release-v1",
+  "repetitions": 3,
+  "seed": 42,
+  "concurrency": 4,
+  "max_output_tokens": 1024,
+  "max_total_tokens": 500000,
+  "max_cost_usd": "5.000000",
+  "gate_policy": {
+    "version": "paired-v1",
+    "min_cases": 100,
+    "min_repetitions": 3,
+    "quality_max_drop": "0.020000",
+    "latency_max_increase": "0.200000",
+    "latency_max_ms": 5000,
+    "cost_max_increase": "0.100000"
+  }
+}
